@@ -1,13 +1,117 @@
 body
 {
-	background-color: #2F3336;
+	background-color: #f3eae3;
+	margin-top: auto;
+	margin-bottom: auto;
 }
-
+.rectangle
+{
+	background-color: #ffffff;
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+	width:500px;
+	height:500px;
+	border-radius:20px;
+	border: 5px #f3eae3 solid;
+}
+img
+{
+	max-width: auto;
+    max-height: 100%;
+}
+#photo
+{
+	width: 240px;
+    height: 490px;
+	padding:5px;
+	object-fit: contain;
+	float:left;
+}
+#content
+{
+	width:250px;
+	height:500px;
+	float:left;
+}
 h1
 {
-	font-size: 44px;
+	font-size: 14px;
 	font-weight: 700;
-	color: #ddd;
+	color:#888894;
+	margin-left:20px;
+	margin-top: 40px;
+	letter-spacing: 2px;
+	margin-right: 20px;
+}
+#name
+{
+	font-size: 30px;
+	font-weight: 800;
+	color:#000000;
+	margin-left:20px;
+	margin-top: 30px;
+	font-family: 'Open Sans', sans-serif;
+	margin-right: 20px;
+}
+#description
+{
+	font-size: 14px;
+	font-weight: 400;
+	color:#000000;
+	margin-left:22px;
+	margin-top: 30px;
+	margin-right: 20px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+}
+#price
+{
+	font-family: 'Signika';
+	font-size: 30px;
+	font-weight: 700;
+	color:#888894;
+	margin-left:22px;
+	margin-top: 30px;
+	margin-right: 20px;
+	text-align: left;
+	float:left;
+}
+#oldprice
+{
+	font-family: 'Signika';
+	font-size: 14px;
+	font-weight: 300;
+	color:#888894;
+	margin-left:10px;
+	margin-top: 40px;
+	margin-right: 20px;
+	text-align: left;
+	text-decoration: line-through;
+}
+#button
+{
+	background-color: #3e7b53;
+	padding: 15px;
+	color: #efefef;
+	font-size: 19px;
+	text-decoration: none;
+	border-radius: 5px;
+	width: 150px;
+	margin-left:25px;
+	border-radius:10px;
 	text-align: center;
-	letter-spacing: 5px;
+}
+#cart
+{
+	width: 20px;
+    height: 20px;
+}
+#button:hover
+{
+	background-color: #54a470;
+	cursor:pointer;
 }
